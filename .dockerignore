@@ -1,0 +1,6 @@
+.git/
+training/
+*.tar.gz
+run_3class_embedded
+run_inference
+cmd/run_3class/model_data/

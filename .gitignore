@@ -1,0 +1,15 @@
+# Binaries
+run
+run_3class_embedded
+run_3class_embeded
+run_command_embedded
+trainer
+lib/
+data/linux_commands_3class_val.json
+.venv
+data/real_world_examples.json
+data/linux_commands_real_val.json
+data/linux_commands_3class_mixed.json
+data/linux_commands_3class_val.json
+models/
+.vscode/
