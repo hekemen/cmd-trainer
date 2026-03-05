@@ -23,7 +23,7 @@ func main() {
 	// Use ONNX_LIB_PATH env var if set, otherwise default to local path
 	onnxLibPath := os.Getenv("ONNX_LIB_PATH")
 	if onnxLibPath == "" {
-		onnxLibPath = "/home/hekemen/lib/hugot/"
+		onnxLibPath = "/lib/hugot/"
 	}
 	session, err := hugot.NewORTSession(
 		options.WithOnnxLibraryPath(onnxLibPath),

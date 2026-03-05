@@ -13,7 +13,7 @@ func main() {
 	// 1. NewSession was moved to hugot.NewSession()
 	// but check that you have the right package import
 	session, err := hugot.NewORTSession(
-		options.WithOnnxLibraryPath("/home/hekemen/lib/hugot/"),
+		options.WithOnnxLibraryPath("/lib/hugot/"),
 	)
 	if err != nil {
 		log.Fatal(err)
